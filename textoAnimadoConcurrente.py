@@ -40,14 +40,10 @@ thread_1 = threading.Thread(target=crearAnimacion,args=(10,10, 'X'))
 thread_2 = threading.Thread(target=crearAnimacion,args=(10,30, 'Y'))
 thread_3 = threading.Thread(target=crearAnimacion,args=(10,50, 'Z'))
 
-
 #Ejecuta las tres threads de las animaciones
 thread_1.start()
 thread_2.start()
 thread_3.start()
-
-#time.sleep(50)
-
 
 # Mantener las siguientes líneas siempre al final del script y en el mismo orden.
 #Coloca la opcion "Salir"
